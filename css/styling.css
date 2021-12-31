@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 body {
+  overflow-x: hidden;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -72,9 +73,9 @@ a.main:hover {
   width: 40px;
   height: 30px;
   border-radius: 5px;
-  position: fixed;
+  position: absolute;
   right: 43px;
-  top: 220px;
+  top: 23px;
 }
 .Star {
   margin-top: -10px;
@@ -98,6 +99,7 @@ a.main:hover {
   color: #333333;
 }
 .submit-text-5 {
+  display: none;
   position: absolute;
   padding: 10px;
   margin-top: -7px;
@@ -121,7 +123,7 @@ a.main:hover {
   width: 390px;
   height: 142px;
   margin: 0 5px;
-  padding: 11px;
+  padding: 5px;
   background: #0d1117;
   color: #8b949e;
 }
@@ -241,9 +243,9 @@ img {
   margin-left: -5px;
 }
 .aside-icon {
-  position: fixed;
-  left: 80px;
-  top: 317px;
+  position: absolute;
+  left: 71px;
+  top: 120px;
 }
 .share-icon {
   margin-right: 2px;
@@ -303,17 +305,17 @@ img {
   width: 40px;
   height: 30px;
   border-radius: 5px;
-  position: fixed;
+  position: absolute;
   right: 43px;
-  top: 360px;
+  top: 159px;
 }
 .second-button-final {
-  position: relative;
-  width: 70px;
+  position: absolute;
+  width: 40px;
   height: 30px;
   border-radius: 5px;
-  top: -102px;
-  left: 785px;
+  top: 460px;
+  right: 43px;
 }
 .box-4-image {
   position: relative;
@@ -332,6 +334,7 @@ img {
   color: #333333;
 }
 .section-footer-2 {
+  width: 18px;
   position: Absolute;
   top: 251px;
   left: 27px;
@@ -344,11 +347,24 @@ img {
   padding: 14px;
   font-size: 12px;
 }
+.mobile-star {
+  margin: -10px;
+}
+.mobile-button {
+  width: 40px;
+  height: 30px;
+  border-radius: 5px;
+  position: absolute;
+  right: 43px;
+  top: 315px;
+}
 .blog-3 {
-  width: 975px;
-  height: 116px;
-  margin: 19px auto 0;
+  width: 390px;
+  height: 142px;
+  margin: 19px 5px 0 5px;
+  padding: 5px;
   background: #0d1117;
+  color: #8b949e;
   border: solid 1px grey;
 }
 .blog-3-text {
@@ -357,18 +373,19 @@ img {
   font-family: "Segoe UI";
   color: cornflowerblue;
   position: absolute;
-  top: 317px;
-  left: 39px;
+  top: 300px;
+  left: 50px;
 }
 .blog-3-text:hover {
   text-decoration: underline;
 }
 .third-text {
+  width: 245px;
   color: #8b949e;
-  font-size: 12px;
-  margin-top: -4px;
+  font-size: 14px;
+  margin-top: -15px;
   margin-left: 13px;
-  line-height: 5px;
+  line-height: 15px;
   font-family: "Segoe UI";
 }
 .blog-3-image {
@@ -376,66 +393,70 @@ img {
   margin-left: 10px;
 }
 .section-footer-3 {
+  font-size: 12px;
+  font-family: "Segoe UI";
   color: #8b949e;
   position: absolute;
-  top: 285px;
-  right: 12px;
+  top: 395px;
+  left: 44px;
 }
 .section-footer-3:hover {
   color: #333333;
 }
 .section-footer-end {
+  width: 18px;
   position: absolute;
-  top: 290px;
-  right: 110px;
+  top: 395px;
+  left: 27px;
 }
 .end-3 {
   position: relative;
-  top: 65px;
-  margin-left: 72px;
+  top: 87px;
+  margin-left: 50px;
 }
 .box-3-logo {
   position: Relative;
-  top: 50px;
-  margin-left: 68px;
+  top: 73px;
+  margin-left: 40px;
 }
 .fifth-item {
-  margin-left: 30px;
+  margin-left: 5px;
 }
 .bron {
   position: relative;
-  top: 60px;
-  left: 105px;
+  top: 80px;
+  left: 82px;
 }
 .kobe {
   position: relative;
-  top: 60px;
-  left: 56px;
+  top: 80px;
+  left: 33px;
 }
 .mamba {
   position: relative;
-  top: 60px;
-  left: 126px;
+  top: 80px;
+  left: 104px;
 }
 .mamba-2 {
   position: relative;
-  top: 60px;
-  left: 124px;
+  top: 80px;
+  left: 104px;
 }
 .container-4 {
-  width: 973px;
-  height: 116px;
+  width: 390px;
+  height: 195px;
   background: #0d1117;
-  margin: 0 auto;
+  margin: 0 5px;
+  padding: 5px;
 }
 .container-4-image {
-  margin-top: 15px;
+  margin-top: 12px;
   margin-left: 10px;
 }
 .main-4 {
   position: absolute;
-  top: 359px;
-  left: 39px;
+  top: 440px;
+  left: 50px;
   color: cornflowerblue;
   font-size: 20px;
   font-weight: lighter;
@@ -445,47 +466,52 @@ img {
   text-decoration: underline;
 }
 .container-4-text {
+  width: 245px;
   color: #8b949e;
-  font-size: 12px;
-  margin-top: -4px;
+  font-size: 14px;
+  margin-top: -15px;
   margin-left: 13px;
-  line-height: 5px;
   font-family: "Segoe UI";
 }
 .end-4 {
   position: relative;
-  top: 65px;
-  left: 72px;
+  top: 123px;
+  left: 50px;
 }
 .container-4-logo {
   position: Relative;
-  top: 50px;
-  left: 149px;
+  top: 110px;
+  left: 98px;
 }
 .container-4-footer {
   position: relative;
-  left: 320px;
-  top: -63px;
+  left: 245px;
+  top: -33px;
 }
 .final-5 {
+  font-size: 12px;
   color: #8b949e;
   position: absolute;
-  top: 400px;
-  right: 12px;
+  top: 584px;
+  left: 44px;
 }
 .final-5:hover {
   color: #333333;
 }
 .section-footer-end-5 {
+  width: 18px;
   position: absolute;
-  top: 405px;
-  right: 110px;
+  top: 582px;
+  left: 25px;
 }
 .type-3 {
   margin-left: 10px;
 }
 .fourth-1-item {
   padding-left: 4px;
+}
+.mobile-view-3 {
+  bottom: 7px;
 }
 
 @media screen and (min-width: 900px) {
@@ -671,5 +697,141 @@ img {
     margin: -47px auto 0;
     background: #0d1117;
     border: solid 1px grey;
+  }
+  .blog-3 {
+    width: 975px;
+    height: 116px;
+    margin: 19px auto 0;
+    background: #0d1117;
+    border: solid 1px grey;
+  }
+
+  .blog-3-text {
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: "Segoe UI";
+    color: cornflowerblue;
+    position: absolute;
+    top: 317px;
+    left: 39px;
+  }
+  .third-text {
+    color: #8b949e;
+    font-size: 12px;
+    margin-top: -4px;
+    margin-left: 13px;
+    line-height: 5px;
+    font-family: "Segoe UI";
+  }
+  .main-4 {
+    position: absolute;
+    top: 359px;
+    left: 39px;
+    color: cornflowerblue;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: "Segoe UI";
+  }
+  .end-3 {
+    position: relative;
+    top: 65px;
+    margin-left: 72px;
+  }
+  .box-3-logo {
+    position: Relative;
+    top: 50px;
+    margin-left: 68px;
+  }
+  .fifth-item {
+    margin-left: 30px;
+  }
+  .bron {
+    position: relative;
+    top: 60px;
+    left: 105px;
+  }
+
+  .kobe {
+    position: relative;
+    top: 60px;
+    left: 56px;
+  }
+  .mamba {
+    position: relative;
+    top: 60px;
+    left: 126px;
+  }
+  .mamba-2 {
+    position: relative;
+    top: 60px;
+    left: 124px;
+  }
+  .section-footer-3 {
+    color: #8b949e;
+    position: absolute;
+    top: 285px;
+    right: 12px;
+  }
+  .section-footer-end {
+    position: absolute;
+    top: 290px;
+    right: 110px;
+  }
+  .container-4 {
+    width: 973px;
+    height: 116px;
+    background: #0d1117;
+    margin: 0 auto;
+  }
+  body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .container-4-image {
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+  .container-4-text {
+    color: #8b949e;
+    font-size: 12px;
+    margin-top: -4px;
+    margin-left: 13px;
+    line-height: 5px;
+    font-family: "Segoe UI";
+  }
+  .end-4 {
+    position: relative;
+    top: 65px;
+    left: 72px;
+  }
+  .container-4-logo {
+    position: Relative;
+    top: 50px;
+    left: 149px;
+  }
+  .final-5 {
+    color: #8b949e;
+    position: absolute;
+    top: 400px;
+    right: 12px;
+  }
+  .section-footer-end-5 {
+    position: absolute;
+    top: 405px;
+    right: 110px;
+  }
+  .container-4-footer {
+    position: relative;
+    left: 320px;
+    top: -63px;
+  }
+  .second-button-final {
+    position: relative;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    top: -102px;
+    left: 785px;
   }
 }
