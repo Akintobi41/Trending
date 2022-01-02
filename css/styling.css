@@ -514,6 +514,65 @@ img {
   bottom: 7px;
 }
 
+@media screen and (min-width: 425px) {
+  header {
+    width: 100%;
+    margin: 0;
+  }
+  .post-excerpt {
+    width: 100%;
+    margin: 0;
+  }
+  .post-body {
+    width: 100%;
+    margin: 0;
+  }
+  .blog-3 {
+    width: 100%;
+    margin: 19px 20px 0 0;
+  }
+  .container-4 {
+    width: 100%;
+    margin: 0;
+  }
+  .first-text {
+    width: 70%;
+  }
+  .second-text {
+    width: 70%;
+  }
+  .third-text {
+    width: 70%;
+  }
+
+  .mamba {
+    top: 77px;
+  }
+  .kobe {
+    top: 77px;
+  }
+  .bron {
+    top: 77px;
+  }
+  .mamba-2 {
+    top: 77px;
+  }
+  .container-4-text {
+    width: 70%;
+  }
+  .final-class {
+    bottom: -10%;
+  }
+  .container-4-footer {
+    top: -6%;
+  }
+}
+@media screen and (min-width: 450px) {
+  .mobile-view-3 {
+    bottom: -7px;
+  }
+}
+
 @media screen and (min-width: 900px) {
   header {
     width: 975px;
