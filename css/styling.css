@@ -762,6 +762,73 @@ img {
     margin: 22px auto 0;
     padding: 15px;
   }
+  .blog-3-text {
+    font-size: 1.1rem;
+    left: 77px;
+  }
+  .blog-3-image {
+    margin-left: -1px;
+    position: relative;
+    top: -5px;
+  }
+  .third-text {
+    width: 80%;
+    margin-left: 0;
+    margin-top: -23px;
+    line-height: 20px;
+  }
+  .mobile-view-3 {
+    bottom: -6px;
+  }
+  .end-3 {
+    display: none;
+    top: 68%;
+    margin-left: 47px;
+  }
+  .box-3-logo {
+    top: 66%;
+    margin-left: 50px;
+  }
+  .item-22 {
+    display: none;
+  }
+  .fourth-1-item {
+    margin-left: 23px;
+  }
+  .section-footer-end {
+    top: 61%;
+    left: 66%;
+  }
+  .section-footer-3 {
+    top: 61%;
+    left: 70%;
+  }
+  .mobile-button {
+    right: 74px;
+    top: 284px;
+  }
+  .container-4 {
+    width: 88%;
+    height: 159px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  a.main-4 {
+    left: 77px;
+    top: 442px;
+  }
+  .container-4-image {
+    margin-left: 0;
+    position: relative;
+    top: -9px;
+  }
+  .container-4-text {
+    margin-left: 0;
+    line-height: 20px;
+  }
+  .end-4 {
+    display: none;
+  }
 }
 @media screen and (min-width: 900px) {
   header {
