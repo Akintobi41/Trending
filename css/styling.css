@@ -693,15 +693,15 @@ img {
     bottom: -6px;
   }
   .aside-icon {
-    top: 17%;
-    left: 48%;
+    top: 18.5%;
+    left: 252px;
   }
   .section-end {
-    top: 15%;
+    top: 16%;
     left: 67%;
   }
   .section-end-1 {
-    top: 15%;
+    top: 16%;
     left: 63%;
   }
   .second-button {
@@ -740,12 +740,12 @@ img {
     top: -58px;
   }
   .section-footer {
-    top: 38.5%;
+    top: 41%;
     left: 70%;
   }
   .section-footer-2 {
     left: 66%;
-    top: 38.5%;
+    top: 41%;
   }
   .box-4-image {
     top: -55px;
@@ -796,11 +796,11 @@ img {
     margin-left: 23px;
   }
   .section-footer-end {
-    top: 61%;
+    top: 65%;
     left: 66%;
   }
   .section-footer-3 {
-    top: 61%;
+    top: 65%;
     left: 70%;
   }
   .mobile-button {
@@ -809,7 +809,7 @@ img {
   }
   .container-4 {
     width: 88%;
-    height: 159px;
+    height: 160px;
     margin: 0 auto;
     padding: 15px;
   }
@@ -828,6 +828,40 @@ img {
   }
   .end-4 {
     display: none;
+  }
+  .final-class {
+    bottom: 1%;
+  }
+  .item-4 {
+    margin: 0 25px;
+  }
+  .item-5 {
+    margin: 0 -13px;
+  }
+  .container-4-footer {
+    top: -23%;
+    left: 173px;
+  }
+  .container-4-logo {
+    left: 51px;
+    top: 93px;
+  }
+  .section-footer-end-5 {
+    top: 92.5%;
+    left: 67%;
+  }
+  .final-5 {
+    top: 93%;
+    left: 71%;
+  }
+  .second-button-final {
+    right: 74px;
+    top: 427px;
+  }
+}
+@media screen and (min-width: 591px) {
+  .mobile-1 {
+    left: -2px;
   }
 }
 @media screen and (min-width: 900px) {
