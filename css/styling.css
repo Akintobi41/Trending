@@ -513,6 +513,15 @@ img {
 .mobile-view-3 {
   bottom: 7px;
 }
+@media screen and (min-width: 400px) {
+  .buttons {
+    margin-left: 17px;
+  }
+  header {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+}
 
 @media screen and (min-width: 425px) {
   header {
@@ -572,7 +581,188 @@ img {
     bottom: -7px;
   }
 }
-
+@media screen and (min-width: 509px) {
+  .blog-3 {
+    margin: 37px 20px 0 0;
+  }
+  .mobile-view-2 {
+    bottom: -14px;
+  }
+}
+@media screen and (min-width: 524px) {
+  .mobile-1 {
+    bottom: 0;
+    left: 0;
+  }
+  .aside-icon {
+    top: 15.5%;
+    left: 45%;
+  }
+  .section-end {
+    top: 13.5%;
+    left: 57%;
+  }
+  .section-end-1 {
+    top: 13.5%;
+    left: 53%;
+  }
+  .section-footer-2 {
+    top: 37.5%;
+    left: 63.5%;
+  }
+  .section-footer {
+    left: 68%;
+    top: 37.5%;
+  }
+  .section-footer-3 {
+    top: 60.5%;
+    left: 73%;
+  }
+  .section-footer-end {
+    top: 60.5%;
+    left: 69%;
+  }
+  .final-5 {
+    left: 74.5%;
+    top: 90%;
+  }
+  .section-footer-end-5 {
+    top: 89.5%;
+    left: 70%;
+  }
+}
+@media screen and (min-width: 544px) {
+  header {
+    width: 88%;
+    margin: 0 auto;
+    height: 103px;
+    padding: 15px;
+  }
+  form {
+    width: 100%;
+    height: 15%;
+    display: block;
+    position: relative;
+    top: -5px;
+    left: 5px;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  select#my-type {
+    top: 0;
+    left: -5px;
+  }
+  .buttons-1 {
+    position: relative;
+    left: -17px;
+    top: -12px;
+  }
+  .lang {
+    margin-left: 12px;
+  }
+  select#second-type {
+    left: -4px;
+    top: 0;
+  }
+  .lang-1 {
+    margin-left: 11px;
+  }
+  select#third-type {
+    top: 0;
+    left: 0;
+  }
+  .post-excerpt {
+    width: 88%;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  a.main {
+    left: 77px;
+    top: 15px;
+    font-size: 18px;
+  }
+  .first-icon {
+    margin-top: 5px;
+    margin-left: 0;
+  }
+  .first-text {
+    margin-left: 2px;
+  }
+  ol {
+    left: -55px;
+    bottom: -6px;
+  }
+  .aside-icon {
+    top: 17%;
+    left: 48%;
+  }
+  .section-end {
+    top: 15%;
+    left: 67%;
+  }
+  .section-end-1 {
+    top: 15%;
+    left: 63%;
+  }
+  .second-button {
+    right: 74px;
+    top: 2px;
+  }
+  .post-body {
+    width: 88%;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  a.main-2 {
+    top: 158px;
+    left: 77px;
+    font-size: 1.1rem;
+  }
+  .box-2-image {
+    top: -140px;
+    left: 47px;
+  }
+  .second-text {
+    width: 66%;
+    margin-left: 48px;
+    margin-top: -156px;
+    line-height: 20px;
+  }
+  .mobile-view-2 {
+    left: -7px;
+    bottom: -7px;
+  }
+  .end-2 {
+    top: -43px;
+    margin-left: 66px;
+  }
+  .box-3-image {
+    top: -58px;
+  }
+  .section-footer {
+    top: 38.5%;
+    left: 70%;
+  }
+  .section-footer-2 {
+    left: 66%;
+    top: 38.5%;
+  }
+  .box-4-image {
+    top: -55px;
+  }
+  .aside-icon-2 {
+    top: -55px;
+  }
+  .second-button-2 {
+    right: 74px;
+    top: 142px;
+  }
+  .blog-3 {
+    width: 88%;
+    margin: 22px auto 0;
+    padding: 15px;
+  }
+}
 @media screen and (min-width: 900px) {
   header {
     width: 975px;
