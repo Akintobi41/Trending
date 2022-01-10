@@ -104,7 +104,7 @@ a:active {
 p {
   width: 30%;
   font-size: 1.4rem;
-  margin: -10px 0;
+  margin: 15px 0 0;
   height: 50px;
 }
 .post-excerpt-button {
@@ -122,22 +122,17 @@ p {
 .container-1-title {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
   align-self: flex-start;
-  margin-top: -65px;
-  margin-right: 10px;
+  margin-top: -37px;
+  margin-left: 23px;
 }
 .container-1-logo {
   width: 25px;
 }
-.container-1-list {
-  margin-left: -63px;
-  height: 17%;
-}
+
 .main-text-1 {
   font-size: 2.3rem;
-  font-weight: 400px;
-  margin-left: 10px;
+  margin-left: 15px;
   color: cornflowerblue;
 }
 .main-text-2 {
@@ -149,15 +144,13 @@ p {
 
 ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   list-style-type: none;
-  margin-top: 40px;
-  margin-left: -2px;
+  width: 82%;
 }
 li {
   font-size: 1.2rem;
   padding: 0 3px;
-  align-items: center;
 }
 .list-text {
   align-self: center;
@@ -185,8 +178,8 @@ li {
 .footer {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
-  margin-top: -10px;
+  align-items: center;
+  height: 40px;
   box-sizing: border-box;
   width: 100%;
 }
@@ -201,4 +194,10 @@ li {
 }
 .footer-excerpt {
   display: flex;
+}
+
+@media screen and (min-width: 321px) {
+  form {
+    width: 56%;
+  }
 }
