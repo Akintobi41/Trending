@@ -36,7 +36,6 @@ button {
   height: 25px;
   color: white;
   background: #161b22;
-
   border: none;
 }
 
@@ -77,6 +76,21 @@ select#third-type {
   color: #8b949e;
   font-size: 1.1rem;
 }
+.list-items {
+  display: flex;
+  align-items: center;
+}
+.list-items-3 {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+.footer-excerpt-3 {
+  width: 50px;
+}
+small {
+  align-self: flex-end;
+}
 a {
   color: white;
   text-decoration: none;
@@ -97,9 +111,28 @@ a:active {
   color: #8b949e;
   padding: 15px;
 }
+.container-3 {
+  display: Flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 95%;
+  height: 226px;
+  margin: 0 auto;
+  border: solid 1px grey;
+  border-top: none;
+  background-color: #0d1117;
+  color: #8b949e;
+  padding: 15px;
+}
 .post-excerpt {
   display: flex;
   flex-wrap: wrap;
+}
+.post-excerpt-3 {
+  display: Flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 65%;
 }
 p {
   width: 30%;
