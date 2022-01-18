@@ -19,7 +19,7 @@ header {
   background-color: #161b22;
 }
 form {
-  width: 65%;
+  width: 50%;
   display: flex;
   flex-wrap: wrap;
   height: 100px;
@@ -290,6 +290,16 @@ li {
     margin-left: 5px;
   }
 }
+@media screen and (min-width: 407px) {
+  form {
+    width: 45%;
+  }
+}
+@media screen and (min-width: 449px) {
+  form {
+    width: 40%;
+  }
+}
 @media screen and (min-width: 450px) {
   .footer-list {
     width: 84%;
@@ -323,5 +333,14 @@ li {
   }
   .footer-list {
     width: 100%;
+  }
+  .footer-excerpt-1 {
+    margin-left: 10px;
+  }
+  .another-list {
+    margin-left: 10px;
+  }
+  .first-list {
+    margin-left: 10px;
   }
 }
