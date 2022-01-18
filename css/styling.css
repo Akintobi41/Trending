@@ -300,3 +300,28 @@ li {
     height: fit-content;
   }
 }
+@media screen and (min-width: 500px) {
+  .main-text-2 {
+    margin-left: 0;
+  }
+  .container-1-title {
+    flex-wrap: nowrap;
+  }
+  .footer-list {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 530px) {
+  .footer-list {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 569px) {
+  .footer-excerpt-0 {
+    flex-grow: 1;
+    justify-content: flex-end;
+  }
+  .footer-list {
+    width: 100%;
+  }
+}
