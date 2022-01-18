@@ -290,3 +290,13 @@ li {
     margin-left: 5px;
   }
 }
+@media screen and (min-width: 450px) {
+  .footer-list {
+    width: 84%;
+  }
+}
+@media screen and (min-width: 469px) {
+  .container-3 {
+    height: fit-content;
+  }
+}
