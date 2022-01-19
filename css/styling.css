@@ -317,7 +317,8 @@ li {
 }
 @media screen and (min-width: 494px) {
   form {
-    width: 41%;
+    width: 38%;
+    margin-left: 10%;
   }
 }
 @media screen and (min-width: 500px) {
@@ -329,6 +330,11 @@ li {
   }
   .footer-list {
     width: 70%;
+  }
+}
+@media screen and (min-width: 510px) {
+  form {
+    width: 39%;
   }
 }
 @media screen and (min-width: 530px) {
