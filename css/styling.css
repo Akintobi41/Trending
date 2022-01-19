@@ -310,6 +310,16 @@ li {
     height: fit-content;
   }
 }
+@media screen and (min-width: 490px) {
+  form {
+    width: 40.5%;
+  }
+}
+@media screen and (min-width: 494px) {
+  form {
+    width: 41%;
+  }
+}
 @media screen and (min-width: 500px) {
   .main-text-2 {
     margin-left: 0;
