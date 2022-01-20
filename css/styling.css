@@ -317,8 +317,10 @@ li {
 }
 @media screen and (min-width: 494px) {
   form {
-    width: 38%;
-    margin-left: 8%;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: flex-start;
   }
 }
 @media screen and (min-width: 500px) {
@@ -333,12 +335,6 @@ li {
   }
 }
 @media screen and (min-width: 510px) {
-  form {
-    width: 100%;
-    justify-content: space-around;
-    flex-direction: column;
-    align-content: flex-start;
-  }
 }
 @media screen and (min-width: 530px) {
   .footer-list {
