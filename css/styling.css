@@ -372,3 +372,8 @@ li {
     height: 115px;
   }
 }
+@media screen and (min-width: 599px) {
+  .container-1-title {
+    margin-top: 0;
+  }
+}
