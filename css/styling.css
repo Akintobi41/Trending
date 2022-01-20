@@ -334,8 +334,7 @@ li {
     width: 70%;
   }
 }
-@media screen and (min-width: 510px) {
-}
+
 @media screen and (min-width: 530px) {
   .footer-list {
     width: 70%;
@@ -357,5 +356,16 @@ li {
   }
   .first-list {
     margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  form {
+    width: 80%;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    margin-left: 1.56rem;
+  }
+  header {
   }
 }
