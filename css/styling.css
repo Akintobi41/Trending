@@ -334,7 +334,10 @@ li {
 }
 @media screen and (min-width: 510px) {
   form {
-    width: 39%;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: flex-start;
   }
 }
 @media screen and (min-width: 530px) {
