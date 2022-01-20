@@ -361,14 +361,14 @@ li {
 
 @media screen and (min-width: 576px) {
   form {
-    width: 80%;
+    width: 32rem;
     justify-content: space-evenly;
     align-content: flex-start;
     margin-left: 1.56rem;
     flex-direction: row;
-    height: auto;
+    height: 35px;
   }
   header {
-    height: 121px;
+    height: 115px;
   }
 }
