@@ -205,6 +205,10 @@ p {
   margin-top: -37px;
   margin-left: 23px;
 }
+.container-1-title:hover {
+  text-decoration: underline;
+  color: cornflowerblue;
+}
 .container-1-logo {
   width: 25px;
 }
@@ -286,6 +290,9 @@ li {
   }
   .footer-0-text {
     font-size: 1.1rem;
+  }
+  .footer-0-text:hover {
+    color: #333333;
   }
   .footer-image-0 {
     margin-left: 5px;
@@ -400,5 +407,18 @@ li {
     height: 70px;
     align-content: center;
     justify-content: space-between;
+  }
+  .post-excerpt-button {
+    display: flex;
+    width: 90px;
+    justify-content: space-evenly;
+  }
+  .post-excerpt-button:hover {
+    border: solid 1px white;
+  }
+  .button-text {
+    display: block;
+    align-self: center;
+    font-size: 1.1rem;
   }
 }
