@@ -121,15 +121,11 @@ a:active {
   color: #8b949e;
   padding: 15px;
 }
-.card-3 {
+.card {
   display: flex;
   justify-content: space-between;
 }
 .post-excerpt {
-  display: flex;
-  flex-wrap: wrap;
-}
-.post-excerpt-3 {
   display: Flex;
   justify-content: space-between;
   flex-wrap: wrap;
