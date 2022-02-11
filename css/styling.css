@@ -28,7 +28,7 @@ main {
   margin: 5px 20px 20px 20px;
 }
 label {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 button {
@@ -127,7 +127,7 @@ a:active {
   justify-content: space-between;
 }
 .post-excerpt {
-  display: Flex;
+  display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   height: 65%;
@@ -135,22 +135,15 @@ a:active {
 }
 p {
   width: 50%;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   margin: 15px 0 0;
   height: 50px;
 }
 .footer-list {
   display: flex;
   flex-wrap: wrap;
-  width: 216px;
+  width: 202px;
   height: 30%;
-}
-.alt-text-0,
-.list-text-0,
-.footer-0-text,
-.footer-excerpt-0,
-.list-text-1 {
-  font-size: 1.2rem;
 }
 .list-text-0 {
   display: flex;
@@ -175,7 +168,7 @@ p {
   margin-left: 5px;
 }
 .alt-text-0 {
-  padding: 0 2px;
+  padding: 0 1px;
   align-self: center;
 }
 .star-border-0,
@@ -209,15 +202,16 @@ p {
 .container-logo {
   width: 25px;
 }
-
+.main-text-1,
+.main-text-2 {
+  font-size: 1.9rem;
+}
 .main-text-1 {
-  font-size: 2.3rem;
   margin-left: 15px;
   color: cornflowerblue;
 }
 .main-text-2 {
   margin-left: -23px;
-  font-size: 2.3rem;
   font-weight: bold;
   color: cornflowerblue;
 }
@@ -285,21 +279,11 @@ li {
   .list-text-0 {
     margin-left: 0;
   }
-  .footer-0-text {
-    font-size: 1.1rem;
-  }
   .footer-0-text:hover {
     color: #333333;
   }
   .footer-image-0 {
     margin-left: 5px;
-  }
-}
-@media screen and (min-width: 407px) {
-  main {
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-content: normal;
   }
 }
 @media screen and (min-width: 450px) {
@@ -351,15 +335,24 @@ li {
 
 @media screen and (min-width: 576px) {
   main {
-    width: 100%;
+    height: auto;
     justify-content: space-evenly;
     align-content: flex-start;
     margin-left: 1.56rem;
     flex-direction: row;
-    height: 35px;
+    margin: 20px 60px 20px 10px;
   }
   header {
     height: 115px;
+  }
+}
+@media screen and (min-width: 588px) {
+  .container-1-title {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .post-excerpt {
+    justify-content: normal;
   }
 }
 @media screen and (min-width: 599px) {
@@ -370,12 +363,6 @@ li {
     margin-left: -2px;
   }
 }
-@media screen and (min-width: 705px) {
-  main {
-    width: 37rem;
-  }
-}
-
 @media screen and (min-width: 768px) {
   main {
     width: 36rem;
