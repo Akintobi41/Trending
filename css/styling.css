@@ -335,6 +335,7 @@ li {
 
 @media screen and (min-width: 576px) {
   main {
+    width: 35em;
     height: auto;
     justify-content: space-evenly;
     align-content: flex-start;
@@ -366,13 +367,13 @@ li {
 @media screen and (min-width: 768px) {
   main {
     width: 36rem;
-    margin-left: 1.5rem;
+    margin: 3px;
     justify-content: space-around;
     align-content: center;
     height: 30px;
   }
   header {
-    height: 70px;
+    height: 80px;
     align-content: center;
     justify-content: space-between;
   }
